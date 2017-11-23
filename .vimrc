@@ -4,6 +4,9 @@ syntax on
 
 set rtp+=~/.vim/bundle/Vundle.vim
 
+"-------------------------------------------------------------------------------
+" VUNDLE PLUGINS
+"-------------------------------------------------------------------------------
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 "Plugin 'davidhalter/jedi-vim'
@@ -55,26 +58,13 @@ set encoding=utf-8
 set wrap
 set textwidth=79
 set softtabstop=2
-
 set mouse=a
 
+"-------------------------------------------------------------------------------
 " COLORS
-set t_Co=256
-set background=dark
-let g:hybrid_termcolors=256
-let g:hybrid_termtrans=1
-
-colorscheme solarized
-hi Normal ctermbg=none
-
-set modelines=0
-set noshiftround
-set formatoptions=tcqrn1
-set softtabstop=2
-set scrolloff=3
-
-set ttyfast
-set laststatus=2
-set showmode
-set showcmd
+"-------------------------------------------------------------------------------
+"set t_Co=256
+"set background=dark
+"let g:hybrid_termcolors=256
+"let g:hybrid_termtrans=1
 
