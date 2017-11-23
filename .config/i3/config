@@ -167,3 +167,6 @@ bar {
 
   }
 }
+
+new_window pixel 1
+new_float pixel 1
