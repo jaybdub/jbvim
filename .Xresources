@@ -16,7 +16,11 @@ URxvt.scrollBar: false
 ! special
 URxvt.foreground:   #c5c8c6
 URxvt.background:   #1d1f21
+!URxvt.depth:        32
+!URxvt.background:   rgba:0000/0000/0200/1800
 URxvt.cursorColor:  #c5c8c6
+URxvt.transparent:  true
+URxvt.shading:      30
 
 ! black
 URxvt.color0:       #282a2e
