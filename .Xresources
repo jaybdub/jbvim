@@ -1,6 +1,7 @@
 !
 ! FONTS
 !
+! assumes compton installed
 
 URxvt.font:   xft:bitstream vera sans mono:size=12:antialias=true
 URxvt.boldFont:   xft:bitstream vera sans mono:bold=12:antialias=true
@@ -14,45 +15,45 @@ URxvt.scrollBar: false
 !
 
 ! special
-URxvt.foreground:   #c5c8c6
-URxvt.background:   #1d1f21
-!URxvt.depth:        32
-!URxvt.background:   rgba:0000/0000/0200/1800
+URxvt.foreground:   #c500c800c600
+!URxvt.background:   #1d1f21
+URxvt.depth:        32
+URxvt.background:   rgba:0000/0000/0000/B800
 URxvt.cursorColor:  #c5c8c6
-URxvt.transparent:  true
-URxvt.shading:      30
+!URxvt.transparent:  true
+!URxvt.shading:      30
 
 ! black
-URxvt.color0:       #282a2e
-URxvt.color8:       #373b41
+URxvt.color0:       #28002a002e00
+URxvt.color8:       #37003b004100
 
 ! red
-URxvt.color1:       #a54242
-URxvt.color9:       #cc6666
+URxvt.color1:       #a50042004200
+URxvt.color9:       #cc0066006600
 
 ! green
-URxvt.color2:       #8c9440
-URxvt.color10:      #b5bd68
+URxvt.color2:       #8c0094004000
+URxvt.color10:      #b500bd006800
 
 ! yellow
-URxvt.color3:       #de935f
-URxvt.color11:      #f0c674
+URxvt.color3:       #de0093005f00
+URxvt.color11:      #f000c6007400
 
 ! blue
-URxvt.color4:       #5f819d
-URxvt.color12:      #81a2be
+URxvt.color4:       #5f0081009d00
+URxvt.color12:      #8100a200be00
 
 ! magenta
-URxvt.color5:       #85678f
-URxvt.color13:      #b294bb
+URxvt.color5:       #850067008f00
+URxvt.color13:      #b2009400bb00
 
 ! cyan
-URxvt.color6:       #5e8d87
-URxvt.color14:      #8abeb7
+URxvt.color6:       #5e008d008700
+URxvt.color14:      #8a00be00b700
 
 ! white
-URxvt.color7:       #707880
-URxvt.color15:      #c5c8c6
+URxvt.color7:       #700078008000
+URxvt.color15:      #c500c800c600
 
 
 !rofi.color-window: #000000, #000000, #999999

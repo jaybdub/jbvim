@@ -63,8 +63,8 @@ set mouse=a
 "-------------------------------------------------------------------------------
 " COLORS
 "-------------------------------------------------------------------------------
-"set t_Co=256
-"set background=dark
-"let g:hybrid_termcolors=256
-"let g:hybrid_termtrans=1
+set t_Co=256
+set background=dark
+let g:hybrid_termcolors=256
+let g:hybrid_termtrans=1
 
