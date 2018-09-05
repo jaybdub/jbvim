@@ -15,6 +15,9 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:syntastic_check_on_open = 0
 
+" CUSTOM COMMANDS
+command YcmBazelInit execute "!wget https://raw.githubusercontent.com/grailbio/bazel-compilation-database/master/.ycm_extra_conf.py && wget https://raw.githubusercontent.com/grailbio/bazel-compilation-database/master/aspects.bzl"
+
 " KEY BINDINGS
 
 :map <F8> :NERDTreeToggle<CR>
