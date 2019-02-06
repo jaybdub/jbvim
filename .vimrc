@@ -6,10 +6,10 @@ set shiftwidth=2
 set expandtab
 set tags=tags
 set path+=.
-set path+=projects/trt_image_classification/include
-set path+=~/tegra_multimedia_api/include
-set path+=/usr/include
-set path+=/usr/include/aarch64-linux-gnu
+"set path+=projects/trt_image_classification/include
+"set path+=~/tegra_multimedia_api/include
+"set path+=/usr/include
+"set path+=/usr/include/aarch64-linux-gnu
 syntax enable
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
@@ -20,8 +20,8 @@ command YcmBazelInit execute "!wget https://raw.githubusercontent.com/grailbio/b
 
 " KEY BINDINGS
 
-:map <F8> :NERDTreeToggle<CR>
-:map <F9> :TagbarToggle<CR>
+":map <F8> :NERDTreeToggle<CR>
+":map <F9> :TagbarToggle<CR>
 
 " VUNDLE PLUGINS
 
@@ -33,14 +33,14 @@ call vundle#begin()
 
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 Plugin 'google/vim-maktaba'
 Plugin 'google/vim-codefmt'
 Plugin 'nvie/vim-flake8'
 "Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Yggdroot/indentLine'
-Plugin 'flazz/vim-colorschemes'
+"Plugin 'flazz/vim-colorschemes'
 Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'scrooloose/syntastic'
 Plugin 'ervandew/supertab'
@@ -57,7 +57,7 @@ filetype plugin indent on
 
 " set indent_guides_enable_on_vim_startup=1
 
-set background=dark
-colorscheme PaperColor
+"set background=dark
+""colorscheme PaperColor
 " let g:indent_guides_enable_on_vim_startup = 1
 " let g:indent_guides_start_level = 2
