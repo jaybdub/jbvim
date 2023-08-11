@@ -26,5 +26,5 @@ fi
 
 ln -f -s ${PWD}/.vimrc ~/.vimrc
 
-mkdir ~/.vimrc/swapfiles
+mkdir ~/.vim/swapfiles
 mkdir ~/.vim/undodir
